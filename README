@@ -14,4 +14,5 @@ To use this library, copy all the files to a directory called Particle
 and put that in the libraries/ folder of your Arduino installation.
 
 This code is inspired in part by the particle system described in 
-Programming Linux Games by John Hall of Loki Software (RIP 1998-2002).
+Programming Linux Games by John Hall (RIP c. 1980 - 2005) and Loki 
+Software (RIP 1998-2002).
