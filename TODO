@@ -1,0 +1,14 @@
+TODO for Particle.h
+===================
+
+ * AVR-GCC port
+ * Gravity
+    - four directions; up, down, left, right
+    - varying strength levels
+ * keywords.txt
+
+Ideas:
+ * Colored explosion support
+    - Pretty gradients, etc
+    - Who's willing to buy me a color GLCD to play with?
+ * Auto-setting MAX_PARTICLES based on what AVR it's being compiled for
