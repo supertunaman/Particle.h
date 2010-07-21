@@ -1,0 +1,14 @@
+*  *  * PPPP      A     RRR     TTTTT   I    CCC    L       EEEEE       H   H
+ * * *  P   P    A A    R  R      T     I   C   C   L       E           H   H
+  ***   PPPP     A A    R  R      T     I   C       L       E           H   H
+******* P        AAA    RRR       T     I   C       L       EEEE        HHHHH
+  ***   P       A   A   R  R      T     I   C       L       E           H   H
+ * * *  P       A   A   R   R     T     I   C   C   L       E       00  H   H
+*  *  * P       A   A   R   R     T     I    CCC    LLLLL   EEEEE   00  H   H
+
+A particle system library for Arduino that can (theoretically) be used 
+with any graphic LCD. Comes with an example that uses the ST7565 
+available from adafruit.com
+
+This code is inspired in part by the particle system described in 
+Programming Linux Games by John Hall of Loki Software (RIP 1998-2002).
