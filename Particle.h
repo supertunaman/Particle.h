@@ -15,6 +15,12 @@
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 
+/* The Particle class has four members; x and y coordinates, and then
+ * x and y velocity. The velocity is a number between -25 and 25, which is 
+ * divided by 5 as an integer to come out to some number between -5 and 
+ * 5. This is so that the particle will actually slow to a halt over a 
+ * longer period of time as the velocity is added to or subtracted from, 
+ * one moveParticles() at a time. */
 class Particle {
     public:
         int x;

@@ -35,21 +35,25 @@ void Particles::moveParticles()
 {
     int i;
     
+    // This is what deccelerates the particles.
     for (i = 0; i < activeParticles; i++)
     {
-        particles[i].x += particles[i].velX / 5;
+        particles[i].x += particles[i].velX / 5;    // calculate true velocity
         particles[i].y += particles[i].velY / 5;
         if (particles[i].velX > 0) {
-            particles[i].velX--;
+            particles[i].velX--;        // subtract from positive numbers
         } else {
-            particles[i].velX++;
+            particles[i].velX++;        // add to negative numbers
         }
         if (particles[i].velY > 0) {
-            particles[i].velY--;
+            particles[i].velY--;        // for both coordinates.
         } else {
             particles[i].velY++;
         }
         
+        // and delete stopped particles from the list.
+        // perhaps I should move this to up about 15 lines, so that stopped
+        //  pixels can be deleted from the sketch.
         if ((particles[i].velX / 5 == 0) || (particles[i].velY / 5 == 0))
         {
             delParticle(i);
