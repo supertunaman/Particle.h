@@ -10,8 +10,8 @@ A particle system library for Arduino that can (theoretically) be used
 with any graphic LCD. Comes with an example that uses the ST7565 
 available from adafruit.com
 
-To use this library, copy all the files to a directory called Particle
-and put that in the libraries/ folder of your Arduino installation.
+To use this library, copy all the directory called Particle to the 
+libraries/ folder of your Arduino installation.
 
 This code is inspired in part by the particle system described in 
 Programming Linux Games by John Hall (RIP c. 1980 - 2005) and Loki 
