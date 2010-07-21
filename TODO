@@ -5,6 +5,8 @@ TODO for Particle.h
  * Gravity
     - four directions; up, down, left, right
     - varying strength levels
+ * Directional explosions 
+ * Wall collision detection
  * keywords.txt
 
 Ideas:
